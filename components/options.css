@@ -1,0 +1,59 @@
+.prensalista_top{
+	background-color: #525252;
+	min-height: 20px;
+}
+.prensalista_title{
+	color: #FFF;
+	background-color: #213A70;
+	padding: 9px 15px 4px 10px !important;
+	min-height: 36px;
+	margin-bottom: 10px !important;
+}
+.prensalista-tabbed-settings 
+{ 
+	padding:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border: 1px solid #DFDFDF; 
+	margin-top:0px;
+	display:block;
+	-moz-border-radius:4px 4px 4px 4px; 
+	-webkit-border-radius:4px 4px 4px 4px; 
+	border-radius:4px 4px 4px 4px;
+	background-color: #F9F9F9;
+}
+a.prensalista-tab, a.prensalista-tab:active, a.prensalista-tab:visited
+{
+	text-decoration:none;
+	display:inline-block;
+	margin:0px;
+	margin-left:10px;
+	margin-bottom:-1px;
+	padding:8px 60px;
+	border:1px solid #DFDFDF;
+	-moz-border-radius:4px 4px 0px 0px; 
+	-webkit-border-radius:4px 4px 0px 0px; 
+	border-radius:4px 4px 0px 0px;
+	font-size: 16px;
+}
+a.prensalista-tab.selected, a.prensalista-tab:hover
+{
+	text-decoration:none;
+	border-bottom:1px solid #F9F9F9;
+	background-color: #F9F9F9;
+}
+a.prensalista-tab.selected
+{
+	font-weight:bold;
+	color:#333333;
+}
+.prensalista-support dl dt
+{
+	width:150px;
+	float:left;
+	clear:left;
+}
+.prensalista-support dl dd input
+{
+	width:400px;
+} 
