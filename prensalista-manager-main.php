@@ -35,16 +35,16 @@ if ( ! defined( 'PRENSALISTA_EMAIL' ) ) {
 	define('PRENSALISTA_EMAIL', 'info@prensalista.com');
 }
 if ( ! defined( 'PUBLISHED_PRODUCTION_URL' ) ) {
-	define('PUBLISHED_PRODUCTION_URL', 'http://pslt.co/API/WordPress/PostPublished/1/');
+	define('PUBLISHED_PRODUCTION_URL', 'https://pslt.co/API/WordPress/PostPublished/1/');
 }
 if ( ! defined( 'PUBLISHED_STAGING_URL' ) ) {
-	define('PUBLISHED_STAGING_URL', 'http://pslt.co/API/WordPress/PostPublished/0/');
+	define('PUBLISHED_STAGING_URL', 'https://pslt.co/API/WordPress/PostPublished/0/');
 }
 if ( ! defined( 'VISITED_PRODUCTION_URL' ) ) {
-	define('VISITED_PRODUCTION_URL', 'http://pslt.co/API/WordPress/PostVisited/1/');
+	define('VISITED_PRODUCTION_URL', 'https://pslt.co/API/WordPress/PostVisited/1/');
 }
 if ( ! defined( 'VISITED_STAGING_URL' ) ) {
-	define('VISITED_STAGING_URL', 'http://pslt.co/API/WordPress/PostVisited/0/');
+	define('VISITED_STAGING_URL', 'https://pslt.co/API/WordPress/PostVisited/0/');
 }
 
 
