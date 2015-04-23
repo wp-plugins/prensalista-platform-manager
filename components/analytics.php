@@ -38,7 +38,7 @@ function prensalista_post_tracking($id, $custom_fields){
 function prensalista_post_content($id){
 	global $wpdb;
 	$thepost = $wpdb->get_row( @$wpdb->prepare( "SELECT * FROM $wpdb->posts WHERE ID = $id" ) );
-	return $thepost->post_content;
+	return wpautop($thepost->post_content);
 }
 
 function prensalista_visited_post_tracking(){
